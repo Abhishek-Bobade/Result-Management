@@ -1,0 +1,82 @@
+<html>
+        <head>
+                <style>
+                        body{
+                                background-color: rgb(154, 150, 162);
+                                color: rgb(20, 142, 14);
+                        }
+                        div{
+                                width: 350px;
+                                border-radius: 30px;
+                                border-color: rgb(134, 110, 110);
+                                border-style: solid;
+                                background-color: rgb(38, 36, 36);
+                                box-shadow: 15px 15px 15px;
+                        }
+                        #msg{
+                                width: 250px;
+                                height: 100px;
+                                box-shadow: 5px 5px 15px;
+                                text-shadow: 5px 5px 15px;
+                        }
+                        #txt{
+                                width: 250px;
+                                height:30px;
+                                text-shadow: 5px 5px 15px;
+                        }
+                        #sub{
+                                width: 100px;
+                                height:30px;
+                                background-color: rgb(169, 198, 169);
+                                border-radius: 50px;
+                                box-shadow: 5px 5px 1px;
+                                border: 0;
+                        }
+                </style>
+        </head>
+        <body><center><br><br>
+                <form action="insertfeed" method="post">
+                        <div><br><h1>FeedBack</h1><hr>
+                                <table border="0">
+                                        <tr>
+                                                <td>Name</td>
+                                        </tr>
+                                        <tr>
+                                                <td colspan="2"><input id="txt" type="text" placeholder="Full Name" name="name" maxlength="30" autocomplete="off" required></td>
+                                        </tr>
+                                        <tr>
+                                                <td>Contact</td>
+                                        </tr>
+                                        <tr>
+                                                <td colspan="2"><input id="txt" type="number" placeholder="XXX XXXX XXX"  name="contact" onKeyPress="if(this.value.length==10) return false;" autocomplete="off" required></td>
+                                        </tr>
+                                        <tr>
+                                                <td colspan="2"><h4>Do You Satisfy With Our Service?</h4></td>
+                                        </tr>
+                                        <tr>
+                                                <td style="text-align: right;"><input type="radio" name="fav" value="Yes">
+                                                        <label for="Yes">Yes</label></td>
+                                                <td style="text-align: centerssss;"><input type="radio" name="fav" value="No">
+                                                        <label for="No">No</label></td>
+                                        </tr>
+                                        <tr>
+                                                <td colspan="2"><h4>Write Your Suggestions</h4></td>
+                                        </tr>		
+                                        <tr>
+                                                <td colspan="2">
+                                                        <textarea id="msg" name="sug" placeholder="UPTO 100 Charactors" maxlength="100" autocomplete="off" required></textarea>
+                                                </td>
+                                        </tr>
+                                        <tr>
+                                                <td colspan="2" style="height: 20px;"></td>
+                                        </tr>
+                                        <tr>
+                                                <td><input id="sub" type="reset"></td>
+                                                <td id="sub" style="text-align: right;"><input id="sub" type="submit"></td>
+                                        </tr>
+                                </table><br><br>                          
+                        </div>
+                </form>
+                </center>
+        </body>
+</html>

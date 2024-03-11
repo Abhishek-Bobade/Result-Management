@@ -1,0 +1,126 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Select Class</title>
+<style>
+body {
+	background-color: rgb(117, 136, 127);
+}
+
+b {
+	color: white;
+}
+
+td {
+	width: 150px;
+	height: 20px;
+	text-align: center;
+}
+
+#mtd1 {
+	background-color: rgb(77, 166, 77);
+}
+
+#mtd2 {
+	background-color: rgb(195, 109, 109);
+}
+
+table {
+	box-shadow: 5px 5px 50px;
+}
+
+#tab1 {
+	width: 1200px;
+	height: 500px;
+	background-color: rgb(205, 220, 205);
+	border-radius: 30px;
+}
+
+#tab2 {
+	background-color: rgb(231, 170, 169);
+}
+
+#tab3 {
+	background-color: rgb(175, 232, 158);
+}
+
+#r1 {
+	width: 200px;
+}
+
+td {
+	width: 400px;
+	height: 80px;
+}
+
+#td1 {
+	border-radius: 20px;
+	background-color: rgb(228, 49, 49);
+	box-shadow: 10px 10px 10px;
+}
+
+#td2 {
+	border-radius: 20px;
+	background-color: rgb(21, 112, 7);
+	box-shadow: 10px 10px 10px;
+}
+</style>
+</head>
+<body>
+	<center>
+		<h1 style="color: rgb(252, 250, 250)">Student Details</h1>
+		<h2 style="color: white">Insert / View</h2>
+		<hr><br>
+		<table id="tab1" border="0" cellpadding="10" cellspacing="50">
+		<tr>
+				<td>
+					<center>
+						<table id="tab2" border="0" cellpadding="10" cellspacing="20">
+							<tr>
+								<td colspan="2"><h1>Insert Student Marks</h1>
+									<h5>Select Class To Insert Student Marks</h5>
+									<hr></td>
+							</tr>
+							<tr>
+								<td id="td1" onclick="window.location.href='Insert_MCA.html';"><b>MCA</b></td>
+								<td id="td1" onclick="window.location.href='Insert_MSC.html';"><b>MSC</b></td>
+							</tr>
+							<tr>
+								<td id="td1" onclick="window.location.href='Insert_BCA.html';"><b>BCA</b></td>
+								<td id="td1" onclick="window.location.href='Insert_BSC.html';"><b>BSC</b></td>
+							</tr>
+						</table>
+					</center>
+				</td>
+				<td>
+					<center>
+						<table id="tab3" border="0" cellpadding="10" cellspacing="20">
+							<tr>
+								<td colspan="2"><h1>Vies Student Result</h1>
+									<h5>Select Class To View Students Detail</h5>
+									<hr></td>
+							</tr>
+							<tr>
+								<td id="td2" onclick="window.location.href='resultmca';"><b>MCA</b></td>
+								<td id="td2" onclick="window.location.href='resultmsc';"><b>MSC</b></td>
+							</tr>
+							<tr>
+								<td id="td2" onclick="window.location.href='resultbca';"><b>BCA</b></td>
+								<td id="td2" onclick="window.location.href='resultbsc';"><b>BSC</b></td>
+							</tr>
+						</table>
+					</center>
+				</td>
+			</tr>
+			<tr>
+		<td colspan="2" style="height:10px"> <a style="text-decoration:none; color:#0c1b36"  href="feedback"><h1>Feedback</h1></a></td>
+		</tr>
+		</table>
+	</center>
+</body>
+</html>
+
+
+
+
+
