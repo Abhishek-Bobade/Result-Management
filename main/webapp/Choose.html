@@ -1,0 +1,201 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Admin</title>
+<style>
+body {
+	background-color: rgb(117, 136, 127);
+}
+
+b {
+	color: white;
+}
+
+td {
+	width: 150px;
+	height: 20px;
+	text-align: center;
+}
+
+#mtd1 {
+	background-color: rgb(77, 166, 77);
+}
+
+#mtd2 {
+	background-color: rgb(195, 109, 109);
+}
+
+table {
+	box-shadow: 5px 5px 50px;
+}
+#tab0{
+	box-shadow: 0px 0px 0px;
+}
+#tab1 {
+	width: 1200px;
+	height: 500px;
+	background-color: rgb(205, 220, 205);
+	border-radius: 30px;
+}
+
+#tab2 {
+	background-color: rgb(231, 170, 169);
+}
+
+#tab3 {
+	background-color: rgb(175, 232, 158);
+}
+
+#tab4 {
+	background-color: rgb(206, 203, 118);
+}
+
+#tab5 {
+	background-color: rgb(143, 178, 226);
+}
+
+#r1 {
+	width: 200px;
+}
+
+td {
+	width: 400px;
+	height: 80px;
+}
+
+#td1 {
+	border-radius: 20px;
+	background-color: rgb(228, 49, 49);
+	box-shadow: 10px 10px 10px;
+}
+
+#td2 {
+	border-radius: 20px;
+	background-color: rgb(21, 112, 7);
+	box-shadow: 10px 10px 10px;
+}
+
+#td3 {
+	border-radius: 20px;
+	background-color: rgb(110, 91, 18);
+	box-shadow: 10px 10px 10px;
+}
+
+#td4 {
+	border-radius: 20px;
+	background-color: rgb(23, 9, 73);
+	box-shadow: 10px 10px 10px;
+}
+</style>
+</head>
+<body>
+	<center>
+		<h1 style="color: rgb(252, 250, 250)">Admin Section</h1>
+		<hr>
+		<br>
+
+	<table id=tab0 border="0" cellspacing="20" cellpadding="20">
+		<tr>
+			<td>
+				<table id=tab0 border="0">
+					<tr>
+						<td>
+							<a 	style="text-decoration: none; color: black" href="feedback"><h1>Feedback</h1></a>
+						</td>
+					</tr>
+				</table>
+			</td>
+			<td>
+				<table id=tab0  border="0">
+					<tr>
+						<td>
+							<a 	style="text-decoration: none; color:black" href="Pro_Structure.html"><h1>Project Structure</h1></a>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+
+		<table id="tab1" border="0" cellpadding="10" cellspacing="50">
+			<tr>
+				<td>
+					<table id="tab2" border="0" cellpadding="10" cellspacing="20">
+						<tr>
+							<td colspan="2"><h1>Insert Student Marks</h1>
+								<h5>Select Class To Insert Student Marks</h5>
+								<hr></td>
+						</tr>
+						<tr>
+							<td id="td1" onclick="window.location.href='Insert_MCA.html';"><b>MCA</b></td>
+							<td id="td1" onclick="window.location.href='Insert_MSC.html';"><b>MSC</b></td>
+						</tr>
+						<tr>
+							<td id="td1" onclick="window.location.href='Insert_BCA.html';"><b>BCA</b></td>
+							<td id="td1" onclick="window.location.href='Insert_BSC.html';"><b>BSC</b></td>
+						</tr>
+					</table>
+				</td>
+				<td>
+					<table id="tab3" border="0" cellpadding="10" cellspacing="20">
+						<tr>
+							<td colspan="2"><h1>Vies Student Result</h1>
+								<h5>Select Class To View Students Detail</h5>
+								<hr></td>
+						</tr>
+						<tr>
+							<td id="td2" onclick="window.location.href='resultmca';"><b>MCA</b></td>
+							<td id="td2" onclick="window.location.href='resultmsc';"><b>MSC</b></td>
+						</tr>
+						<tr>
+							<td id="td2" onclick="window.location.href='resultbca';"><b>BCA</b></td>
+							<td id="td2" onclick="window.location.href='resultbsc';"><b>BSC</b></td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<table id="tab4" border="0" cellpadding="10" cellspacing="20">
+						<tr>
+							<td colspan="2"><h1>Update Student Details</h1>
+								<h5>Select Class To Update Student Marks</h5>
+								<hr></td>
+						</tr>
+						<tr>
+							<td id="td3" onclick="window.location.href='Update_MCA.html';"><b>MCA</b></td>
+							<td id="td3" onclick="window.location.href='Update_MSC.html';"><b>MSC</b></td>
+						</tr>
+						<tr>
+							<td id="td3" onclick="window.location.href='Update_BCA.html';"><b>BCA</b></td>
+							<td id="td3" onclick="window.location.href='Update_BSC.html';"><b>BSC</b></td>
+						</tr>
+					</table>
+				</td>
+				<td>
+					<table id="tab5" border="0" cellpadding="10" cellspacing="20">
+						<tr>
+							<td colspan="2"><h1>Delete Student Result</h1>
+								<h5>Select Class To Delete Students Detail</h5>
+								<hr></td>
+						</tr>
+						<tr>
+							<td id="td4" onclick="window.location.href='Delete_MCA.html';"><b>MCA</b></td>
+							<td id="td4" onclick="window.location.href='Delete_MSC.html';"><b>MSC</b></td>
+						</tr>
+						<tr>
+							<td id="td4" onclick="window.location.href='Delete_BCA.html';"><b>BCA</b></td>
+							<td id="td4" onclick="window.location.href='Delete_BSC.html';"><b>BSC</b></td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table><br><br><br><br><br><br>
+	</center>
+</body>
+</html>
+
+
+
+
+

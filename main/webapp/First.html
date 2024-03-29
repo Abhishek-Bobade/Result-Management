@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Result Management System</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0 10px;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        button{
+        	width:150px;
+        	height:30px;
+        	box-shadow: 5px 5px 5px;
+        }
+    </style>
+</head>
+<script type="text/javascript">
+    function redirectFrame1() {
+        // Get a reference to the frame
+        var frame = window.parent.frames['frame2']; // 'frame2' is the name of the target frame
+        if (frame) {
+            frame.location.href = 'Home.html';
+        }else {
+            console.error('Frame not found!');
+        }
+    }
+    function redirectFrame2() {
+        // Get a reference to the frame
+        var frame = window.parent.frames['frame2']; // 'frame2' is the name of the target frame
+        if (frame) {
+            frame.location.href = 'Feedback.html';
+        }else {
+            console.error('Frame not found!');
+        }
+    }
+    function redirectFrame3() {
+        // Get a reference to the frame
+        var frame = window.parent.frames['frame2']; // 'frame2' is the name of the target frame
+        if (frame) {
+            frame.location.href = 'Result.html';
+        }else {
+            console.error('Frame not found!');
+        }
+    }
+    function redirectFrame4() {
+        // Get a reference to the frame
+        var frame = window.parent.frames['frame2']; // 'frame2' is the name of the target frame
+        if (frame) {
+            frame.location.href = 'AdminLogin.html';
+        }else {
+            console.error('Frame not found!');
+        }
+    }
+    function redirectFrame5() {
+        // Get a reference to the frame
+        var frame = window.parent.frames['frame2']; // 'frame2' is the name of the target frame
+        if (frame) {
+            frame.location.href = 'About.html';
+        }else {
+            console.error('Frame not found!');
+        }
+    }
+    function redirectFrame6() {
+        // Get a reference to the frame
+        var frame = window.parent.frames['frame2']; // 'frame2' is the name of the target frame
+        if (frame) {
+            frame.location.href = 'ContactUs.html';
+        }else {
+            console.error('Frame not found!');
+        }
+    }
+</script>
+<body>
+    <header>
+        <h1>Result Management System</h1>
+    </header>
+    <nav>
+        <button onclick="redirectFrame1()"><b>Home</b></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button onclick="redirectFrame2()"><b>Feedback</b></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button onclick="redirectFrame3()"><b>Students</b></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button onclick="redirectFrame4()"><b>Teachers</b></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button onclick="redirectFrame5()"><b>About</b></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button onclick="redirectFrame6()"><b>Contact Us</b></button>
+    </nav>
+    
+</body>
+</html>
