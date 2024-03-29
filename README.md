@@ -19,6 +19,18 @@ After fill Roll Number and Name of the Student
 ### Admin Section
 ![Admin](https://github.com/Abhishek-Bobade/Result-Management/assets/159528652/8253cbff-185d-4ee4-b809-07168a033580)
 
-Enter Mail-ID and password, If correct go to next page
+#### Enter Mail-ID and password, If correct go to next page, Here Admin/Teachers doing tasks
+- Insert Student Record 
+- Update Student Record 
+- Delete Student Record
+- View Student Results Section wise
+##### You Can Aslo See
+1. Project Structure.
+2. Feedbacks.
+![Admin_Section](https://github.com/Abhishek-Bobade/Result-Management/assets/159528652/fcacae86-0726-4d80-89a7-cf420660c63d)
+
+### About Page
+![About](https://github.com/Abhishek-Bobade/Result-Management/assets/159528652/c52d9397-b556-492d-9d76-1ed1e326d195)
+
 
 
