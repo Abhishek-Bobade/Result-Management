@@ -11,3 +11,14 @@ Welcome to the Result Management Project! This project aims to simplify the proc
 
 ### Student Section
 ![Student](https://github.com/Abhishek-Bobade/Result-Management/assets/159528652/4a3b3bdf-e0be-4f4a-a6de-7060239840ed)
+
+### Result Page
+After fill Roll Number and Name of the Student
+![Student_Result](https://github.com/Abhishek-Bobade/Result-Management/assets/159528652/76d531bd-e88d-430d-a5df-c4899191db5d)
+
+### Admin Section
+![Admin](https://github.com/Abhishek-Bobade/Result-Management/assets/159528652/8253cbff-185d-4ee4-b809-07168a033580)
+
+Enter Mail-ID and password, If correct go to next page
+
+
