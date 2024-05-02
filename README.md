@@ -5,33 +5,41 @@ Welcome to the Result Management Project! This project aims to simplify the proc
 ![RMS_Structure](https://github.com/Abhishek-Bobade/Result-Management/assets/159528652/dc4c4cc9-1f57-45c1-9309-1bc5fbea6300)
 
 ### Home Page
-![FireShot Capture 001 - Result Management - localhost](https://github.com/Abhishek-Bobade/Result-Management/assets/159528652/d087096f-725c-4caf-bb6a-d2b7130e951c)
+![image](https://github.com/Abhishek-Bobade/Result-Management/assets/159528652/c370c28f-c79b-4e0a-9763-40fdecfde4df)
 
 ### Feedback Form
-![Feedback](https://github.com/Abhishek-Bobade/Result-Management/assets/159528652/970c1429-ce80-460f-bf39-5b1dfe96f753)
+![image](https://github.com/Abhishek-Bobade/Result-Management/assets/159528652/912c28ff-191e-437b-a4a5-e5e6f73848ed)
 
 ### Student Section
-![Student](https://github.com/Abhishek-Bobade/Result-Management/assets/159528652/4a3b3bdf-e0be-4f4a-a6de-7060239840ed)
+![image](https://github.com/Abhishek-Bobade/Result-Management/assets/159528652/5d1a2df5-cb14-44e9-8f55-39603e1f0b99)
 
 ### Result Page
 After fill Roll Number and Name of the Student
-![Student_Result](https://github.com/Abhishek-Bobade/Result-Management/assets/159528652/76d531bd-e88d-430d-a5df-c4899191db5d)
+![image](https://github.com/Abhishek-Bobade/Result-Management/assets/159528652/d9d8c772-a725-4fd0-97e6-ca48393f6c91)
 
 ### Admin Section
-![Admin](https://github.com/Abhishek-Bobade/Result-Management/assets/159528652/8253cbff-185d-4ee4-b809-07168a033580)
+![image](https://github.com/Abhishek-Bobade/Result-Management/assets/159528652/0c86456d-882b-44ba-b39b-8321160fdb7c)
 
 #### Enter Mail-ID and password, If correct go to next page, Here Admin/Teachers doing tasks
+
+![image](https://github.com/Abhishek-Bobade/Result-Management/assets/159528652/b7fcfe23-37c9-4f4c-8dd0-2275e23612ad)
+
+### Operations tab in Admin Login
 - Insert Student Record 
 - Update Student Record 
 - Delete Student Record
 - View Student Results Section wise
-##### You Can Aslo See
-1. Project Structure.
-2. Feedbacks.
-![Admin_Section](https://github.com/Abhishek-Bobade/Result-Management/assets/159528652/fcacae86-0726-4d80-89a7-cf420660c63d)
+
+![image](https://github.com/Abhishek-Bobade/Result-Management/assets/159528652/35b68895-0ef1-4b08-a823-a04cff95619f)
+
+### Feedback tab in Admin Login
+![image](https://github.com/Abhishek-Bobade/Result-Management/assets/159528652/0c87b833-f86b-4d62-881c-bbf08df76b08)
+
+### Student Details tab in Admin Login
+![image](https://github.com/Abhishek-Bobade/Result-Management/assets/159528652/1417d8ca-a687-4d77-a24c-0fe93b1849c2)
 
 ### About Page
-![About](https://github.com/Abhishek-Bobade/Result-Management/assets/159528652/c52d9397-b556-492d-9d76-1ed1e326d195)
+![image](https://github.com/Abhishek-Bobade/Result-Management/assets/159528652/f640bf68-d2bb-48e5-be1e-9c2659ea37e0)
 
-### Contact Page
-![Contact](https://github.com/Abhishek-Bobade/Result-Management/assets/159528652/5a438619-7940-4931-a237-5cb1dbcf80fe)
+### Contact-Us Page
+![image](https://github.com/Abhishek-Bobade/Result-Management/assets/159528652/9669aba5-e121-432f-83db-0194c600a855)
