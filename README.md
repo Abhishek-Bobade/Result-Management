@@ -5,7 +5,7 @@ Welcome to the Result Management Project! This project aims to simplify the proc
 ![RMS_Structure](https://github.com/Abhishek-Bobade/Result-Management/assets/159528652/dc4c4cc9-1f57-45c1-9309-1bc5fbea6300)
 
 ### Home Page
-![Main](https://github.com/Abhishek-Bobade/Result-Management/assets/159528652/a9dcea4e-2fcc-4d76-8b39-a71cc90789d3)
+![FireShot Capture 001 - Result Management - localhost](https://github.com/Abhishek-Bobade/Result-Management/assets/159528652/d087096f-725c-4caf-bb6a-d2b7130e951c)
 
 ### Feedback Form
 ![Feedback](https://github.com/Abhishek-Bobade/Result-Management/assets/159528652/970c1429-ce80-460f-bf39-5b1dfe96f753)
