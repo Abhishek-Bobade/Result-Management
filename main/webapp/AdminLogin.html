@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Admin Details</title>
+</head>
+<style>
+body {
+	background-image: url("Images/Admin.avif");
+	background-size: cover;
+	background-attachment: fixed;
+}
+header {
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+footer {
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	padding: 10px 0;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+h1 {
+	color: white;
+	font-family: Arial;
+}
+
+#d1 {
+	border: 0cap;
+}
+
+input {
+	width: 200px;
+	height: 30px;
+	background-color: black;
+	color: white;
+}
+button {
+	width: 100px;
+	height: 25px;
+	background: green;
+}
+</style>
+<body>
+<header>
+        <h1>Admin Login</h1>
+ </header>
+ 
+ 
+	<center><hr>
+		<form onsubmit="return validate()" action=AdminSection.html method=post>
+			<table cellspacing="10" cellpadding="10">
+				<tr>
+					<td id="d1" colspan="2"><p style="color:white">Enter your local Admin "username/password", and press Enter (Login).</p></td>
+				</tr>
+				<tr>
+					<td id="d1" colspan="2"><b style="color:red">Enter Admin Details</b></td>
+				</tr>
+				<tr>
+					<td id="d1"><input type="text" autocomplete="off"placeholder="Username"
+						id="username"></td>
+					<td id="d1"><input type="password" placeholder="Password"
+						id="password"></td>
+				</tr>
+			</table>
+			<br>
+			<button type="submit"><b>Login</b></button>
+		</form>
+
+	</center>
+<footer>
+		<p>&copy; 2024 Result Management System. All rights reserved.</p>
+	</footer>
+</body>
+<script>
+	function validate() {
+		var username = document.getElementById("username").value;
+		var password = document.getElementById("password").value;
+		if (username != "Admin" || password != "password") {
+			alert("Invalid Credentials");
+			alert("Login Failed... (Try Again)");
+			return false;
+		} else {
+			true;
+		}
+	}
+</script>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Result Management System</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            background-color: #8e8a8a;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            background-color: #444;
+            padding: 20px 0;
+            text-align: center;
+        }
+        button{
+        	width:200px;
+        	height:30px;
+        	box-shadow: 5px 5px 5px;
+        	border-radius: 50px;
+        }
+        button:hover{
+        	background-color: #020202;
+            color: #fbf9f9;
+        }
+    </style>
+</head>
+<script type="text/javascript">
+    function redirectFrame(url) {
+        // Get a reference to the frame
+        var frame = window.parent.frames['frame2']; // 'frame2' is the name of the target frame
+        if (frame) {
+            frame.location.href = url;
+        } else {
+            console.error('Frame not found!');
+        }
+    }
+</script>
+<body>
+    <iframe style="mix-blend-mode:color-burn" src="Images/logo.jpg" width="200" height="220"></iframe>
+       <nav>
+        <button onclick="redirectFrame('Home.html')"><b>Home</b></button><br><br>
+        <button onclick="redirectFrame('Feedback.html')"><b>Feedback</b></button><br><br>
+        <button onclick="redirectFrame('Result.html')"><b>Students</b></button><br><br>
+        <button onclick="redirectFrame('AdminLogin.html')"><b>Teachers</b></button><br><br>
+        <button onclick="redirectFrame('About.html')"><b>About</b></button><br><br>
+        <button onclick="redirectFrame('ContactUs.html')"><b>Contact Us</b></button>
+    </nav>
+        <iframe src="Notice.html" width="200" height="180"></iframe>
+</body>
+</html>

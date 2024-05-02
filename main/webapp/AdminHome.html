@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000000;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #d0d0d0;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+			color: rgb(0, 0, 0);
+			font-family: Arial;
+			font-size: 40px;
+        }
+		h3 {
+			text-align: center;
+            margin-bottom: 20px;
+			color: rgb(0, 0, 0);
+        }
+		h4 {
+            text-align: center;
+            margin-bottom: 20px;
+			color: rgb(255, 0, 0);
+			font-family: Arial;
+        }
+        p {
+            text-align: left;
+            color: #000000;
+			margin-left: 10px;
+        }
+		#main{
+			text-align: center;
+		}
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .feature {
+            flex: 0 0 calc(50% - 20px);
+            margin-right: 20px;
+            margin-bottom: 20px;
+			background-color: rgb(108, 108, 108);
+			border-radius: 5px;
+        }
+		.note{
+			width: 90%;
+			background-color: rgb(159, 112, 112);
+			border-radius: 5px;
+		}
+        
+        
+    </style>
+</head>
+<body><br>
+    <section>
+        <div class="container">
+            <h1>Welcome, Admin!</h1>
+            <p id="main">This is your dashboard for managing the student result management system. You can use the navigation above to access different sections.</p>
+            <hr><br><br>
+			<div class="features">
+                <div class="feature">
+                    <h3>Student Management</h3>
+                    <p>Manage student profiles, add, edit, or delete student information.</p>
+                </div>
+                <div class="feature">
+                    <h3>Course Management</h3>
+                    <p>Manage courses offered by the institution, add, edit, or delete courses.</p>
+                </div>
+                <div class="feature">
+                    <h3>Exam Management</h3>
+                    <p>Schedule exams, define exam patterns, and manage exam results.</p>
+                </div>
+                <div class="feature">
+                    <h3>Result Management</h3>
+                    <p>Manage student results, enter or upload results, view performance, and generate reports.</p>
+                </div>
+                <div class="feature">
+                    <h3>User Management</h3>
+                    <p>Manage user accounts, add, remove, or modify admin and teacher accounts.</p>
+                </div>
+                <div class="feature">
+                    <h3>Reports</h3>
+                    <p>Generate various reports related to student performance, exam results, and course-wise analysis.</p>
+				</div>
+            </div><hr>
+			<h4>Note</h4>
+            <p id="main">Some of the sections in the section above are not yet ready for deployment. Work is still being done.</p>
+        </div><br>
+    </section>
+</body>
+</html>

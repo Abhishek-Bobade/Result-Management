@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <style>
+            body {
+            background-color: #8e8a8a;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            background-color: #444;
+            padding: 20px 0;
+            text-align: center;
+        }
+        button{
+        	width:150px;
+        	height:30px;
+        	box-shadow: 5px 5px 5px;
+            border-radius: 50px;
+        }
+        button:hover{
+        	background-color: #020202;
+            color: #fbf9f9;
+        }
+        h1{
+            margin-top: 8px;
+            margin-left:400px;
+        }
+     #logout{
+            color: red;
+            font-size:20px;
+            font-family: calibri;
+        	margin-left:400px;
+        }
+        img{
+            mix-blend-mode: color-burn;   
+            margin-top: 8px;
+            height:30px;    
+            width:30px; 
+        }
+        </style>
+    </head>
+    <script type="text/javascript">
+        function redirectFrame(url) {
+            // Get a reference to the frame
+            var frame = window.parent.frames['frame2']; // 'frame2' is the name of the target frame
+            if (frame) {
+                frame.location.href = url;
+            } else {
+                console.error('Frame not found!');
+            }
+        }
+        function logout() {
+            window.history.replaceState(null, document.title, window.location.href);
+            window.parent.location.href = "AdminLogin.html";            
+        }
+    </script>
+<body>
+    <center>
+			        <h1>Admin Section   <a id="logout" onclick="logout()"> <img  src="Images/logout.png" Title="Log Out"/> </a> </h1>
+    </center>
+       <nav>
+        <button onclick="redirectFrame('Operations.html')"><b>Operations</b></button>
+        <button onclick="redirectFrame('feedback')"><b>Feedback</b></button>
+        <button onclick="redirectFrame('studetails')"><b>Students Details</b></button>
+        <button onclick="redirectFrame('Pro_Structure.html')"><b>Project Structure</b></button>
+        </nav>
+</body>
+</html>
