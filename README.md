@@ -1,4 +1,4 @@
-# Result-Management
+# Student Result-Management System.
 Welcome to the Result Management Project! This project aims to simplify the process of managing and organizing student results for educational institutions.
 
 ## Structure of This Project:
